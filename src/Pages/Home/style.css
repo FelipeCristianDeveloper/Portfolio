@@ -1,0 +1,43 @@
+.section-banner{
+    height: 90vh;
+    background-image: url("../../assets/banner.PNG");
+    background-size: cover;
+    background-position: center center;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.section-banner-title{
+    text-align: center;
+    margin-bottom: 80px;
+}
+
+.section-banner-title h3{
+    color: #fff;
+}
+
+.section-banner-title h1{
+    background: linear-gradient(45deg, rgba(0,255,30,1) 0%, rgba(0,199,186,1) 72%);
+    background-clip: text;
+    color: transparent;
+    font-size: 5rem;
+}
+
+.section-banner-title p{
+    background: linear-gradient(45deg, rgba(0,255,30,1) 0%, rgba(0,199,186,1) 72%);
+    background-clip: text;
+    color: transparent;
+    font-size: 1.3rem;
+    letter-spacing: 1px;
+}
+
+.section-banner-social-media{
+    margin-bottom: 80px;
+}
+
+.section-banner-social-media img{
+    width: 50px;
+    margin: 0 20px;
+}
